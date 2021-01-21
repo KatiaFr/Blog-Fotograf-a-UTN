@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./style-contact.css">
+
+   <title> Contacto - Blog de fotografía con flexbox, CSS, KFra</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">         
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<body>
+    <header>
+        <nav class="logoweb">
+          <img src="../images/spa-24px.svg" class="logo" alt="Logo de la web">
+         </nav>
+
+          <menu class="navbar"> </menu>
+
+          <div class="topnav" id="myTopnav">
+              <a class="active" href="../index.html">Home</a>
+                  <a class="linkmenu" href="#">Post</a>
+                  <a class="linkmenu" href="#">Coments</a> 
+                  <a class="linkmenu" href="../public/About.html">About</a>
+                    <a class="linkmenu" href="../public/Contacto.html">Contact</a> 
+                    <a href="javascript:void(0);" class="icon" onclick="resumeMenu()">
+                      <i class="fa fa-bars"></i> </a>                 
+          </div>
+
+    </header>
+       <section class="section1">
+
+
+        <div class="container">
+            <div class="text">
+      <p>Contactanos</p>
+            </div>
+      <form action="POST">
+            <div class="form-row">
+                    <div class="input-data">
+                        <label for="">Nombre y Apellido</label>
+                        <input type="text" required>
+                       <div class="underline">
+                       </div>
+                     </div>
+                    <div class="input-data">
+                         <label for=""> Email</label>
+                        <input type="text"autofocus  required>
+                        <div class="underline">
+                        </div>
+                    </div>
+            </div>
+            <div class="form-row">
+                <div class="input-data">
+                        <p>Tu mensaje:</p> 
+                        <div class="input-data textarea">
+                            <textarea rows="8" cols="80" required></textarea> 
+                        </div>
+                </div>
+            </div>
+
+              <br />
+      <div class="form-row submit-btn">
+                <div class="input-data">
+                  <div class="inner"></div>
+                  <input type="submit" value="Enviar">
+                </div>
+              </div>
+            </form>
+          </div>
+
+       </section>
+       <section class="section2">
+    </section>
+        
+    <footer>
+        <h3> Suscribite a nuestro newsletter </h3>
+        <p> Suscribéndote a nuestro newsletter te enterás primero de los post y promociones </p>
+</footer>
+<script src="../js/menunav.js"></script>
+</body>
+</html>
